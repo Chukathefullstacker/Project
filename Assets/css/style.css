@@ -1,0 +1,36 @@
+body{
+    background-image: url(../img/backgound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: aliceblue;
+    /* opacity: .2; */
+    
+}
+
+.background{
+    /* opacity: 2; */
+    max-width: 1000px;
+    border: 1px solid red;
+    padding: 40px;
+   margin: 0 auto;
+   margin-top: 80px;
+    background-color: transparent;
+
+}
+h1{text-align: center; font-family: serif; margin-bottom: 50px;}
+
+.name{
+    font-family: sans-serif;
+    font-size:larger;
+    text-align: center;
+}
+button{
+    float: right;
+    border: 0.5px solid ;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #dbdbdb;
+    cursor: pointer;
+}
